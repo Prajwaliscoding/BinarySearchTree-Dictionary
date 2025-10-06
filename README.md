@@ -34,6 +34,7 @@ Each entry stores a **word** and its **definition**, and the dictionary supports
 
 ## 🗂️ Folder Structure
 
+```text
 BinarySearchTree-Dictionary/
 │
 ├── include/
@@ -48,8 +49,7 @@ BinarySearchTree-Dictionary/
 │ └── main.c
 │
 └── Makefile
-
----
+```
 
 ## ⚙️ Build Instructions
 
@@ -70,6 +70,7 @@ make
 You should see:
 BST Dictionary (C) — type 'help' for commands.
 
+```text
 > 🧾 Commands
 > Command Description
 > `add <word>	<definition>`
@@ -80,12 +81,11 @@ BST Dictionary (C) — type 'help' for commands.
 > load <file.csv> Loads entries from CSV
 > help Shows available commands
 > quit Exits the program
+```
 
 ## Example Session
 
-bash
-
-```
+```bash
 > add apple|a fruit
 OK: added/updated 'apple'
 > add array|contiguous memory structure
