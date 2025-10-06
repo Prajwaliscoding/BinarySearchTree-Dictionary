@@ -102,6 +102,7 @@ Saved to words.csv
 
 ## 💻 Implementation Details
 
+```text
 Language: C (C11)
 Average complexities:
 insert, search, delete: O(log n)
@@ -109,3 +110,4 @@ list (inorder): O(n)
 Data Structure: Binary Search Tree
 Persistence: CSV read/write with simple string parsing
 Platform: macOS / Linux / WSL
+```
